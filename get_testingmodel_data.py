@@ -1,6 +1,5 @@
 
-from binance import Client, ThreadedWebsocketManager, ThreadedDepthCacheManager
-import datetime
+from binance import Client
 import pandas as pd
 from config import API_TOKEN, SECRET_KEY
 

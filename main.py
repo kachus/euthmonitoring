@@ -7,7 +7,6 @@ from config import API_TOKEN, SECRET_KEY
 
 client = Client(API_TOKEN, SECRET_KEY)
 
-
 def get_binanceklines(symbol = 'ETHUSDT', interval = Client.KLINE_INTERVAL_1MINUTE, limit = 60,):
     binance=client
     klines = binance.get_klines(symbol=symbol,interval=interval,limit=limit)

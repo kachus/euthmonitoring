@@ -1,5 +1,4 @@
 from environs import Env
-import os
 env: Env = Env()
 env.read_env()
 
