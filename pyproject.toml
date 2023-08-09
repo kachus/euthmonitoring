@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["kachus <ka4usova.e@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+binance = "^0.3"
+pandas = "^2.0.3"
+environs = "^9.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
