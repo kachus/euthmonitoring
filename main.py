@@ -38,8 +38,6 @@ def logging_changes(symbol='ETHUSDT', limit=60):
             print(f'За час изменений цены {symbol} более, чем на 1% не было')
 
 
-
-
 if __name__ == '__main__':
     count_delta() # сразу берем значения за последний час
     logging_changes(limit=60)
