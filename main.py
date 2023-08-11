@@ -5,6 +5,7 @@ import datetime as dt
 from get_testingmodel_data import r_squared
 from config import API_TOKEN, SECRET_KEY
 
+
 client = Client(API_TOKEN, SECRET_KEY)
 
 def get_binanceklines(symbol = 'ETHUSDT', interval = Client.KLINE_INTERVAL_1MINUTE, limit = 60,):
